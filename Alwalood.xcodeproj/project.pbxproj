@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313983B4203C1EF4006DD607 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313983B3203C1EF4006DD607 /* ViewController2.swift */; };
+		313983B6203C1FD4006DD607 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313983B5203C1FD3006DD607 /* Week.swift */; };
+		313983BE203C2002006DD607 /* WeeksNumbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 313983BD203C2002006DD607 /* WeeksNumbers.plist */; };
 		315DED23202A5B7A00FFE01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DED22202A5B7A00FFE01E /* AppDelegate.swift */; };
 		315DED25202A5B7A00FFE01E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DED24202A5B7A00FFE01E /* ViewController.swift */; };
 		315DED28202A5B7A00FFE01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315DED26202A5B7A00FFE01E /* Main.storyboard */; };
@@ -15,6 +18,39 @@
 		315DED30202A5B7A00FFE01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315DED2E202A5B7A00FFE01E /* LaunchScreen.storyboard */; };
 		315DED3B202A5B7A00FFE01E /* AlwaloodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DED3A202A5B7A00FFE01E /* AlwaloodTests.swift */; };
 		315DED46202A5B7A00FFE01E /* AlwaloodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315DED45202A5B7A00FFE01E /* AlwaloodUITests.swift */; };
+		31BFE9D4204B1B88008C34BD /* SViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7AC49B6520432BAB00B0DF02 /* SViewController.swift */; };
+		31BFE9D5204B1BB1008C34BD /* ViewController2.swift in Resources */ = {isa = PBXBuildFile; fileRef = 313983B3203C1EF4006DD607 /* ViewController2.swift */; };
+		31BFE9D6204B1BDB008C34BD /* Week.swift in Resources */ = {isa = PBXBuildFile; fileRef = 313983B5203C1FD3006DD607 /* Week.swift */; };
+		31C5D2652032C96300FE56E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31C5D2642032C96300FE56E6 /* GoogleService-Info.plist */; };
+		31E2858220743509004DEFB6 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E2858120743508004DEFB6 /* ProfileVC.swift */; };
+		31E2AFA62056952D00E6C036 /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E2AFA52056952D00E6C036 /* mainPage.swift */; };
+		31F46BEA2032B4B100B55339 /* ViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 315DED24202A5B7A00FFE01E /* ViewController.swift */; };
+		7A11EC1420715FCC00A0E3ED /* ViewControllerG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11EC1320715FCB00A0E3ED /* ViewControllerG.swift */; };
+		7A11EC162071603500A0E3ED /* DViewControllerG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11EC152071603500A0E3ED /* DViewControllerG.swift */; };
+		7A11EC182071605E00A0E3ED /* MainCollectionViewCellG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11EC172071605D00A0E3ED /* MainCollectionViewCellG.swift */; };
+		7A11EC202071668100A0E3ED /* ViewControllerN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11EC1F2071667F00A0E3ED /* ViewControllerN.swift */; };
+		7AC49B6620432BAB00B0DF02 /* SViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC49B6520432BAB00B0DF02 /* SViewController.swift */; };
+		7AC6CCA5207375B400785A15 /* firstViewControllerN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6CCA4207375B300785A15 /* firstViewControllerN.swift */; };
+		7AC6CCA72073765B00785A15 /* detailsViewControllerG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6CCA62073765A00785A15 /* detailsViewControllerG.swift */; };
+		7AC6CCAB2073F92E00785A15 /* DViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE0DBC207033230080FC69 /* DViewController.swift */; };
+		7AC6CCAC2073F95100785A15 /* MainCollectionViewCellTwo.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE0DC0207033E20080FC69 /* MainCollectionViewCellTwo.swift */; };
+		7AC6CCAD2073F96100785A15 /* DViewControllerTwo.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE0DC2207033EB0080FC69 /* DViewControllerTwo.swift */; };
+		7AC6CCAE2073F96E00785A15 /* ViewControllerTwo.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE0DBE207033AB0080FC69 /* ViewControllerTwo.swift */; };
+		7AC6CCAF2073F97300785A15 /* MainCollectionViewCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE0DBA207032F70080FC69 /* MainCollectionViewCell.swift */; };
+		7AC6CCB02073F97900785A15 /* firstViewControllerN.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7AC6CCA4207375B300785A15 /* firstViewControllerN.swift */; };
+		7AC6CCB12073F9A000785A15 /* detailsViewControllerG.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7AC6CCA62073765A00785A15 /* detailsViewControllerG.swift */; };
+		7AC6CCB22073F9A400785A15 /* DViewControllerG.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7A11EC152071603500A0E3ED /* DViewControllerG.swift */; };
+		7AC6CCB32073F9AB00785A15 /* ViewControllerG.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7A11EC1320715FCB00A0E3ED /* ViewControllerG.swift */; };
+		7AC6CCB42073F9B100785A15 /* ViewControllerN.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7A11EC1F2071667F00A0E3ED /* ViewControllerN.swift */; };
+		7AC6CCB52073F9B800785A15 /* MainCollectionViewCellG.swift in Resources */ = {isa = PBXBuildFile; fileRef = 7A11EC172071605D00A0E3ED /* MainCollectionViewCellG.swift */; };
+		7AC6CCB62073F9F900785A15 /* WeeksNumbers.plist in Sources */ = {isa = PBXBuildFile; fileRef = 313983BD203C2002006DD607 /* WeeksNumbers.plist */; };
+		7AC6CCB82073FA8800785A15 /* resetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6CCB72073FA8800785A15 /* resetPassword.swift */; };
+		7ADE0DBB207032F80080FC69 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE0DBA207032F70080FC69 /* MainCollectionViewCell.swift */; };
+		7ADE0DBD207033230080FC69 /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE0DBC207033230080FC69 /* DViewController.swift */; };
+		7ADE0DBF207033AB0080FC69 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE0DBE207033AB0080FC69 /* ViewControllerTwo.swift */; };
+		7ADE0DC1207033E30080FC69 /* MainCollectionViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE0DC0207033E20080FC69 /* MainCollectionViewCellTwo.swift */; };
+		7ADE0DC3207033EB0080FC69 /* DViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE0DC2207033EB0080FC69 /* DViewControllerTwo.swift */; };
+		B4606B0F23AC95560450C2F3 /* Pods_Alwalood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5BE33F8E67EE56538A5952 /* Pods_Alwalood.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2105E24AF3120345B2FBE028 /* Pods-Alwalood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alwalood.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alwalood/Pods-Alwalood.release.xcconfig"; sourceTree = "<group>"; };
+		313983B3203C1EF4006DD607 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		313983B5203C1FD3006DD607 /* Week.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		313983BD203C2002006DD607 /* WeeksNumbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WeeksNumbers.plist; sourceTree = "<group>"; };
 		315DED1F202A5B7A00FFE01E /* Alwalood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alwalood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		315DED22202A5B7A00FFE01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		315DED24202A5B7A00FFE01E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +89,27 @@
 		315DED41202A5B7A00FFE01E /* AlwaloodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlwaloodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		315DED45202A5B7A00FFE01E /* AlwaloodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaloodUITests.swift; sourceTree = "<group>"; };
 		315DED47202A5B7A00FFE01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315DED55202BA7CF00FFE01E /* Alwalood-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alwalood-Bridging-Header.h"; sourceTree = "<group>"; };
+		31C5D2642032C96300FE56E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31E2858120743508004DEFB6 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		31E2AFA52056952D00E6C036 /* mainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		55DF2E4DD77CF1B1F2281AB5 /* Pods_AlwaloodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlwaloodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5BE33F8E67EE56538A5952 /* Pods_Alwalood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alwalood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A11EC1320715FCB00A0E3ED /* ViewControllerG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerG.swift; sourceTree = "<group>"; };
+		7A11EC152071603500A0E3ED /* DViewControllerG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewControllerG.swift; sourceTree = "<group>"; };
+		7A11EC172071605D00A0E3ED /* MainCollectionViewCellG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCellG.swift; sourceTree = "<group>"; };
+		7A11EC1F2071667F00A0E3ED /* ViewControllerN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerN.swift; sourceTree = "<group>"; };
+		7AC49B6520432BAB00B0DF02 /* SViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SViewController.swift; sourceTree = "<group>"; };
+		7AC6CCA4207375B300785A15 /* firstViewControllerN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstViewControllerN.swift; sourceTree = "<group>"; };
+		7AC6CCA62073765A00785A15 /* detailsViewControllerG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsViewControllerG.swift; sourceTree = "<group>"; };
+		7AC6CCB72073FA8800785A15 /* resetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resetPassword.swift; sourceTree = "<group>"; };
+		7ADE0DBA207032F70080FC69 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		7ADE0DBC207033230080FC69 /* DViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
+		7ADE0DBE207033AB0080FC69 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		7ADE0DC0207033E20080FC69 /* MainCollectionViewCellTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCellTwo.swift; sourceTree = "<group>"; };
+		7ADE0DC2207033EB0080FC69 /* DViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DViewControllerTwo.swift; sourceTree = "<group>"; };
+		881723ACB30836E313A0AFCF /* Pods_AlwaloodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlwaloodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB465E618BE3D67FBDF185F /* Pods-Alwalood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alwalood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alwalood/Pods-Alwalood.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4606B0F23AC95560450C2F3 /* Pods_Alwalood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +145,8 @@
 				315DED39202A5B7A00FFE01E /* AlwaloodTests */,
 				315DED44202A5B7A00FFE01E /* AlwaloodUITests */,
 				315DED20202A5B7A00FFE01E /* Products */,
+				B9D5C961AFFB41828170996A /* Pods */,
+				658BF449753C23DF7729D94A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +163,33 @@
 		315DED21202A5B7A00FFE01E /* Alwalood */ = {
 			isa = PBXGroup;
 			children = (
+				31E2AFA52056952D00E6C036 /* mainPage.swift */,
 				315DED22202A5B7A00FFE01E /* AppDelegate.swift */,
+				7ADE0DBC207033230080FC69 /* DViewController.swift */,
+				7ADE0DC0207033E20080FC69 /* MainCollectionViewCellTwo.swift */,
+				7ADE0DC2207033EB0080FC69 /* DViewControllerTwo.swift */,
 				315DED24202A5B7A00FFE01E /* ViewController.swift */,
+				7ADE0DBE207033AB0080FC69 /* ViewControllerTwo.swift */,
+				7ADE0DBA207032F70080FC69 /* MainCollectionViewCell.swift */,
+				7AC6CCB72073FA8800785A15 /* resetPassword.swift */,
+				7AC49B6520432BAB00B0DF02 /* SViewController.swift */,
+				313983B3203C1EF4006DD607 /* ViewController2.swift */,
+				313983B5203C1FD3006DD607 /* Week.swift */,
 				315DED26202A5B7A00FFE01E /* Main.storyboard */,
 				315DED2C202A5B7A00FFE01E /* Assets.xcassets */,
 				315DED2E202A5B7A00FFE01E /* LaunchScreen.storyboard */,
 				315DED31202A5B7A00FFE01E /* Info.plist */,
+				313983BD203C2002006DD607 /* WeeksNumbers.plist */,
+				31C5D2642032C96300FE56E6 /* GoogleService-Info.plist */,
 				315DED29202A5B7A00FFE01E /* Alwalood.xcdatamodeld */,
+				315DED55202BA7CF00FFE01E /* Alwalood-Bridging-Header.h */,
+				7AC6CCA4207375B300785A15 /* firstViewControllerN.swift */,
+				7AC6CCA62073765A00785A15 /* detailsViewControllerG.swift */,
+				7A11EC152071603500A0E3ED /* DViewControllerG.swift */,
+				7A11EC1320715FCB00A0E3ED /* ViewControllerG.swift */,
+				7A11EC1F2071667F00A0E3ED /* ViewControllerN.swift */,
+				31E2858120743508004DEFB6 /* ProfileVC.swift */,
+				7A11EC172071605D00A0E3ED /* MainCollectionViewCellG.swift */,
 			);
 			path = Alwalood;
 			sourceTree = "<group>";
@@ -128,6 +212,25 @@
 			path = AlwaloodUITests;
 			sourceTree = "<group>";
 		};
+		658BF449753C23DF7729D94A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C5BE33F8E67EE56538A5952 /* Pods_Alwalood.framework */,
+				881723ACB30836E313A0AFCF /* Pods_AlwaloodTests.framework */,
+				55DF2E4DD77CF1B1F2281AB5 /* Pods_AlwaloodUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9D5C961AFFB41828170996A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB465E618BE3D67FBDF185F /* Pods-Alwalood.debug.xcconfig */,
+				2105E24AF3120345B2FBE028 /* Pods-Alwalood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 315DED4A202A5B7A00FFE01E /* Build configuration list for PBXNativeTarget "Alwalood" */;
 			buildPhases = (
+				C8E6EC3BEB009CAFB9285945 /* [CP] Check Pods Manifest.lock */,
 				315DED1B202A5B7A00FFE01E /* Sources */,
 				315DED1C202A5B7A00FFE01E /* Frameworks */,
 				315DED1D202A5B7A00FFE01E /* Resources */,
+				0ABE912EB8BF19785925F800 /* [CP] Embed Pods Frameworks */,
+				67E1B7910B1641ECF6AF4F30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +302,7 @@
 				TargetAttributes = {
 					315DED1E202A5B7A00FFE01E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					315DED35202A5B7A00FFE01E = {
@@ -235,9 +342,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				315DED30202A5B7A00FFE01E /* LaunchScreen.storyboard in Resources */,
+				7AC6CCB52073F9B800785A15 /* MainCollectionViewCellG.swift in Resources */,
+				7AC6CCB42073F9B100785A15 /* ViewControllerN.swift in Resources */,
+				7AC6CCB32073F9AB00785A15 /* ViewControllerG.swift in Resources */,
+				7AC6CCB22073F9A400785A15 /* DViewControllerG.swift in Resources */,
+				7AC6CCB12073F9A000785A15 /* detailsViewControllerG.swift in Resources */,
+				7AC6CCB02073F97900785A15 /* firstViewControllerN.swift in Resources */,
+				7AC6CCAF2073F97300785A15 /* MainCollectionViewCell.swift in Resources */,
+				7AC6CCAE2073F96E00785A15 /* ViewControllerTwo.swift in Resources */,
+				7AC6CCAD2073F96100785A15 /* DViewControllerTwo.swift in Resources */,
+				7AC6CCAC2073F95100785A15 /* MainCollectionViewCellTwo.swift in Resources */,
+				7AC6CCAB2073F92E00785A15 /* DViewController.swift in Resources */,
 				315DED2D202A5B7A00FFE01E /* Assets.xcassets in Resources */,
+				31BFE9D6204B1BDB008C34BD /* Week.swift in Resources */,
+				31BFE9D5204B1BB1008C34BD /* ViewController2.swift in Resources */,
+				31BFE9D4204B1B88008C34BD /* SViewController.swift in Resources */,
+				31F46BEA2032B4B100B55339 /* ViewController.swift in Resources */,
+				313983BE203C2002006DD607 /* WeeksNumbers.plist in Resources */,
+				315DED30202A5B7A00FFE01E /* LaunchScreen.storyboard in Resources */,
 				315DED28202A5B7A00FFE01E /* Main.storyboard in Resources */,
+				31C5D2652032C96300FE56E6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +381,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ABE912EB8BF19785925F800 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alwalood/Pods-Alwalood-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alwalood/Pods-Alwalood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E1B7910B1641ECF6AF4F30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alwalood/Pods-Alwalood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E6EC3BEB009CAFB9285945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alwalood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		315DED1B202A5B7A00FFE01E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC6CCB62073F9F900785A15 /* WeeksNumbers.plist in Sources */,
+				7ADE0DC1207033E30080FC69 /* MainCollectionViewCellTwo.swift in Sources */,
 				315DED25202A5B7A00FFE01E /* ViewController.swift in Sources */,
+				31E2AFA62056952D00E6C036 /* mainPage.swift in Sources */,
+				7A11EC162071603500A0E3ED /* DViewControllerG.swift in Sources */,
+				7AC6CCA72073765B00785A15 /* detailsViewControllerG.swift in Sources */,
+				7AC49B6620432BAB00B0DF02 /* SViewController.swift in Sources */,
+				7A11EC1420715FCC00A0E3ED /* ViewControllerG.swift in Sources */,
+				7AC6CCB82073FA8800785A15 /* resetPassword.swift in Sources */,
+				31E2858220743509004DEFB6 /* ProfileVC.swift in Sources */,
+				313983B6203C1FD4006DD607 /* Week.swift in Sources */,
+				7A11EC202071668100A0E3ED /* ViewControllerN.swift in Sources */,
+				7ADE0DBF207033AB0080FC69 /* ViewControllerTwo.swift in Sources */,
+				7ADE0DBB207032F80080FC69 /* MainCollectionViewCell.swift in Sources */,
 				315DED23202A5B7A00FFE01E /* AppDelegate.swift in Sources */,
 				315DED2B202A5B7A00FFE01E /* Alwalood.xcdatamodeld in Sources */,
+				7ADE0DBD207033230080FC69 /* DViewController.swift in Sources */,
+				7ADE0DC3207033EB0080FC69 /* DViewControllerTwo.swift in Sources */,
+				313983B4203C1EF4006DD607 /* ViewController2.swift in Sources */,
+				7A11EC182071605E00A0E3ED /* MainCollectionViewCellG.swift in Sources */,
+				7AC6CCA5207375B400785A15 /* firstViewControllerN.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,13 +630,20 @@
 		};
 		315DED4B202A5B7A00FFE01E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB465E618BE3D67FBDF185F /* Pods-Alwalood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JMDAF8J6FM;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Alwalood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KSU.Alwalood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alwalood/Alwalood-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,13 +651,19 @@
 		};
 		315DED4C202A5B7A00FFE01E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2105E24AF3120345B2FBE028 /* Pods-Alwalood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JMDAF8J6FM;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Alwalood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KSU.Alwalood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alwalood/Alwalood-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
